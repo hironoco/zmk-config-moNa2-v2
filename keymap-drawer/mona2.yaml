@@ -52,7 +52,7 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - UP ARROW
-  - '9'
+  - DEL
   - {t: ▽, type: trans}
   - ''''
   - ','
@@ -133,7 +133,7 @@ layers:
   - KP DIVIDE
   - KP 7
   - KP 8
-  - Ctl+KP 9
+  - KP 9
   - {t: ▽, type: trans}
   - F12
   - F11
@@ -381,7 +381,7 @@ layers:
   - LCTRL
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: '3', h: toggle}
+  - '3'
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
