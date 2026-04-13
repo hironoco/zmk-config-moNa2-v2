@@ -87,7 +87,7 @@
 
         layer_1 {
             bindings = <
-&trans            &kp EXCL   &kp LPAR          &kp RPAR           &trans                       &trans  &kp BACKSPACE   &kp UP_ARROW    &kp NUMBER_9     &trans
+&trans            &kp EXCL   &kp LPAR          &kp RPAR           &trans                       &trans  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &trans
 &kp SINGLE_QUOTE  &kp COMMA  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp AT
 &kp GRAVE         &kp SEMI   &kp MINUS         &kp PLUS           &trans     &trans    &trans  &trans  &kp AMPS        &kp SLASH       &kp DOLLAR       &kp PERCENT
 &trans            &trans     &trans            &trans             &lt 2 TAB  &trans    &trans  &trans                                                   &trans
@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&kp KP_DIVIDE  &kp KP_N7  &kp KP_N8  &kp LC(KP_N9)  &trans                            &kp F12  &kp F11  &kp F10  &kp F9  &trans
-&kp KP_DOT     &kp KP_N4  &kp KP_N5  &kp KP_N6      &trans            &trans          &kp F8   &kp F7   &kp F6   &kp F5  &trans
-&kp KP_N0      &kp KP_N1  &kp KP_N2  &kp KP_N3      &trans  &trans    &trans          &kp F4   &kp F3   &kp F2   &kp F1  &trans
-&trans         &trans     &trans     &trans         &trans  &trans    &kp KP_NUMLOCK  &trans                             &trans
+&kp KP_DIVIDE  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans                            &kp F12  &kp F11  &kp F10  &kp F9  &trans
+&kp KP_DOT     &kp KP_N4  &kp KP_N5  &kp KP_N6  &trans            &trans          &kp F8   &kp F7   &kp F6   &kp F5  &trans
+&kp KP_N0      &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &trans    &trans          &kp F4   &kp F3   &kp F2   &kp F1  &trans
+&trans         &trans     &trans     &trans     &trans  &trans    &kp KP_NUMLOCK  &trans                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -162,10 +162,10 @@
 
         gaming {
             bindings = <
-&kp Q      &kp W           &kp E   &kp R   &kp M                        &trans  &trans  &trans  &trans  &trans
-&kp A      &kp S           &kp D   &kp F   &kp Y                &trans  &trans  &trans  &trans  &trans  &trans
-&kp Z      &kp X           &kp C   &kp V   &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp LEFT_SHIFT  &trans  &tog 3  &kp SPACE  &trans    &trans  &trans                          &trans
+&kp Q      &kp W           &kp E   &kp R  &kp M                        &trans  &trans  &trans  &trans  &trans
+&kp A      &kp S           &kp D   &kp F  &kp Y                &trans  &trans  &trans  &trans  &trans  &trans
+&kp Z      &kp X           &kp C   &kp V  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LEFT_SHIFT  &trans  &mo 3  &kp SPACE  &trans    &trans  &trans                          &trans
             >;
         };
     };
