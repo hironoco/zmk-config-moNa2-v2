@@ -25,7 +25,7 @@
         compatible = "zmk,combos";
 
         layer4_ESC {
-            bindings = <&lt 4 ESC>;
+            bindings = <&lt 5 ESC>;
             key-positions = <39 38>;
         };
 
@@ -76,27 +76,36 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q      &kp U    &kp L         &trans                               &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E      &kp I      &kp A    &kp O         &kp CAPS                  &trans     &kp K        &kp T  &kp N  &kp S  &kp H
-&kp Z      &kp X      &kp C    &kp V         &tog 8       &trans       &trans     &kp G        &kp D  &kp M  &kp J  &kp B
-&kp LCTRL  &kp LSHFT  &kp DEL  &kp LEFT_ALT  &lt 3 SPACE  &kp LANG2    &kp LANG1  &lt 1 ENTER                       &kp LEFT_WIN
+&kp ESC    &kp Q      &kp U    &kp L         &kp KP_NUMLOCK                          &kp F        &kp W  &kp R  &kp Y  &kp P
+&kp E      &kp I      &kp A    &kp O         &kp CAPS                     &trans     &kp K        &kp T  &kp N  &kp S  &kp H
+&kp Z      &kp X      &kp C    &kp V         &trans          &tog 1       &trans     &kp G        &kp D  &kp M  &kp J  &kp B
+&kp LCTRL  &kp LSHFT  &kp DEL  &kp LEFT_ALT  &lt 4 SPACE     &kp LANG2    &kp LANG1  &lt 2 ENTER                       &kp LEFT_WIN
             >;
 
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_1 {
+        gaming {
+            bindings = <
+&kp Q      &kp W           &kp E   &kp R  &kp M                        &trans  &trans  &trans  &trans  &trans
+&kp A      &kp S           &kp D   &kp F  &kp Y                &trans  &trans  &trans  &trans  &trans  &trans
+&kp Z      &kp X           &kp C   &kp V  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LEFT_SHIFT  &trans  &mo 4  &kp SPACE  &trans    &trans  &trans                          &trans
+            >;
+        };
+
+        character_1 {
             bindings = <
 &trans            &kp EXCL   &kp LPAR          &kp RPAR           &trans                       &trans  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &trans
 &kp SINGLE_QUOTE  &kp COMMA  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp AT
 &kp GRAVE         &kp SEMI   &kp MINUS         &kp PLUS           &trans     &trans    &trans  &trans  &kp AMPS        &kp SLASH       &kp DOLLAR       &kp PERCENT
-&trans            &trans     &trans            &trans             &lt 2 TAB  &trans    &trans  &trans                                                   &trans
+&trans            &trans     &trans            &trans             &lt 3 TAB  &trans    &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
         };
 
-        layer_2 {
+        character_2 {
             bindings = <
 &trans             &kp QUESTION  &kp LT     &kp GT           &trans                       &trans  &trans    &trans         &trans    &trans
 &kp DOUBLE_QUOTES  &kp PERIOD    &kp LBRC   &kp RIGHT_BRACE  &kp TILDE            &trans  &trans  &kp HOME  &trans         &kp END   &trans
@@ -107,18 +116,18 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_3 {
+        number {
             bindings = <
-&kp KP_DIVIDE  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans                            &trans  &kp F12  &kp F11  &kp F10  &kp F9
-&kp KP_DOT     &kp KP_N4  &kp KP_N5  &kp KP_N6  &trans            &trans          &trans  &kp F8   &kp F7   &kp F6   &kp F5
-&kp KP_N0      &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &trans    &trans          &trans  &kp F4   &kp F3   &kp F2   &kp F1
-&trans         &trans     &trans     &trans     &trans  &trans    &kp KP_NUMLOCK  &trans                             &trans
+&kp KP_DIVIDE  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans                    &trans  &kp F12  &kp F11  &kp F10  &kp F9
+&kp KP_DOT     &kp KP_N4  &kp KP_N5  &kp KP_N6  &trans            &trans  &trans  &kp F8   &kp F7   &kp F6   &kp F5
+&kp KP_N0      &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &trans    &trans  &trans  &kp F4   &kp F3   &kp F2   &kp F1
+&trans         &trans     &trans     &trans     &trans  &trans    &trans  &trans                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        layer_4 {
+        connect {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
@@ -149,24 +158,6 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-        };
-
-        gaming {
-            bindings = <
-&kp Q      &kp W           &kp E   &kp R  &kp M                        &trans  &trans  &trans  &trans  &trans
-&kp A      &kp S           &kp D   &kp F  &kp Y                &trans  &trans  &trans  &trans  &trans  &trans
-&kp Z      &kp X           &kp C   &kp V  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp LEFT_SHIFT  &trans  &mo 3  &kp SPACE  &trans    &trans  &trans                          &trans
-            >;
         };
     };
 };
