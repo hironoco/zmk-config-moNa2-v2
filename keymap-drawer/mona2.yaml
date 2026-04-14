@@ -346,6 +346,4 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
-  k: {t: ESC, h: connect}
-- p: [11, 12]
-  k: TAB
+  k: connect

@@ -311,14 +311,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 280)" class="layer-gaming">
@@ -499,14 +494,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-character_1">
@@ -693,14 +683,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-character_2">
@@ -876,14 +861,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-number">
@@ -1084,14 +1064,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1400)" class="layer-connect">
@@ -1276,14 +1251,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-5">
@@ -1473,14 +1443,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1960)" class="layer-6">
@@ -1658,14 +1623,9 @@ path.combo {
 <path d="M364,196 l37,0" class="combo"/>
 <path d="M364,196 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
-<text x="364" y="196" class="combo tap">ESC</text>
 <a href="#connect">
-<text x="364" y="207" class="combo hold layer-activator">connect</text>
+<text x="364" y="196" class="combo tap layer-activator">connect</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">TAB</text>
-</g>
 </g>
 </g>
 </svg>

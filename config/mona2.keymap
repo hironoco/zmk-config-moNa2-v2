@@ -24,14 +24,9 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 5 ESC>;
+        move_to_connect {
+            bindings = <&mo 5>;
             key-positions = <39 38>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
         };
     };
 
