@@ -35,12 +35,12 @@ layers:
   - J
   - B
   - LCTRL
-  - LSHFT
-  - DEL
   - LEFT ALT
+  - DEL
+  - LEFT SHIFT
   - {t: SPACE, h: number}
   - LANG2
-  - LANG1
+  - {t: LANG1, h: RSHIFT}
   - {t: ENTER, h: character_1}
   - LEFT WIN
   gaming:
