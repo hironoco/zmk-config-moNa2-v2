@@ -35,11 +35,11 @@ layers:
   - J
   - B
   - LCTRL
-  - LEFT ALT
-  - DEL
   - LEFT SHIFT
+  - DEL
+  - LEFT ALT
   - {t: SPACE, h: number}
-  - LANG2
+  - {t: LANG2, h: LSHIFT}
   - {t: LANG1, h: RSHIFT}
   - {t: ENTER, h: character_1}
   - LEFT WIN
