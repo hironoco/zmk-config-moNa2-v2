@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-
 #define DEFAULT 0
 #define GAMING 1
 #define CHARACTER_1 2
@@ -34,7 +33,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -93,7 +92,7 @@
         default_layer {
             bindings = <
 &kp ESC    &kp Q           &kp U    &kp L         &kp KP_NUMLOCK                                        &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E      &kp I           &kp A    &kp O         &kp CAPS                            &trans            &kp K        &kp T  &kp N  &kp S  &kp H
+&kp E      &kp I           &kp A    &kp O         &kp CAPS                            &trans            &kp K        &kp T  &kp N  &kp S  &lt 7 H
 &kp Z      &kp X           &kp C    &kp V         &trans          &tog 1              &trans            &kp G        &kp D  &kp M  &kp J  &kp B
 &kp LCTRL  &kp LEFT_SHIFT  &kp DEL  &kp LEFT_ALT  &lt 4 SPACE     &mt LSHIFT LANG2    &mt RSHIFT LANG1  &lt 2 ENTER                       &kp LEFT_WIN
             >;
