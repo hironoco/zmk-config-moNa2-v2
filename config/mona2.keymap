@@ -29,7 +29,7 @@
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 800>; };
 
-&trackball_listener {
+&trackball_central_listener {
     scroller {
         layers = <SCROLL>;
         input-processors =
