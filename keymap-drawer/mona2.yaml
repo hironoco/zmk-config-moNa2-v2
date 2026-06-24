@@ -44,47 +44,47 @@ layers:
   - {t: ENTER, h: character_1}
   - LEFT WIN
   gaming:
+  - ESC
   - Q
   - W
   - E
   - R
-  - M
+  - T
+  - '1'
+  - F
+  - '2'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
   - A
   - S
   - D
-  - F
   - Y
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - G
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - TAB
+  - LCTRL
   - Z
-  - X
   - C
   - V
+  - M
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTRL
+  - '9'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - X
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - number
+  - {t: ▽, type: trans}
   - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - LEFT ALT
+  - ENTER
   - {t: ▽, type: trans}
   character_1:
   - {t: ▽, type: trans}
