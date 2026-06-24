@@ -33,7 +33,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -102,10 +102,10 @@
 
         gaming {
             bindings = <
-&kp Q      &kp W           &kp E   &kp R  &kp M                        &trans  &trans  &trans  &trans  &trans
-&kp A      &kp S           &kp D   &kp F  &kp Y                &trans  &trans  &trans  &trans  &trans  &trans
-&kp Z      &kp X           &kp C   &kp V  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp LEFT_SHIFT  &trans  &mo 4  &kp SPACE  &trans    &trans  &trans                          &trans
+&kp ESC     &kp Q           &kp W   &kp E   &kp R                               &kp T      &kp NUMBER_1  &kp F         &kp NUMBER_2  &trans
+&kp LSHIFT  &kp A           &kp S   &kp D   &kp Y                 &trans        &kp G      &mkp MB1      &mkp MB3      &mkp MB2      &kp TAB
+&kp LCTRL   &kp Z           &kp C   &kp V   &kp M      &trans     &trans        &kp N9     &kp N5        &kp NUMBER_6  &kp N7        &kp N8
+&kp X       &kp LEFT_SHIFT  &trans  &trans  &kp SPACE  &kp TAB    &kp LEFT_ALT  &kp ENTER                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
